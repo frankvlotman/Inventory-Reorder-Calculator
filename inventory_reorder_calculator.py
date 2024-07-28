@@ -118,5 +118,8 @@ info_label_2.pack(anchor="w")
 info_label_3 = tk.Label(info_frame, text="Months of Stock: How long the Reorder Quantity will last based on average monthly sales", font=("Arial", 8), fg="gray")
 info_label_3.pack(anchor="w")
 
+info_label_4 = tk.Label(info_frame, text="Target Stock Qty: Should be same value as Monthly Sale  to fulfil the Sale for the month without Safety Stock", font=("Arial", 8), fg="gray")
+info_label_4.pack(anchor="w")
+
 # Run the GUI
 window.mainloop()
